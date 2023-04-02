@@ -26,13 +26,13 @@
 
 .glass{
   background: linear-gradient(90deg,rgba(255, 255, 255, 0.08),rgba(255, 255, 255, 0));
-  backdrop-filter:blur(20px);
+  backdrop-filter:blur(15px);
   border:1px solid rgba(255, 255, 255, 0.05) ;
   box-shadow: -8px 8px 32px 0 rgba(0, 0, 0, 0.3) , ;
 }
 .glass:hover{
   
-  cursor: pointer;
+  
   box-shadow: 1px -1px 16px  rgba(1, 40, 124, 0.3),  1px -1px 16px  rgba(0, 25, 78, 0.3);
   transition-timing-function: ease;
   transition-duration: 0.5s;
@@ -47,4 +47,11 @@
   padding-top: 1em;
   padding-bottom: 1em;
   
+}
+
+.proPic{
+  filter: grayscale();
+}
+.proPic:hover{
+  filter: none;
 }

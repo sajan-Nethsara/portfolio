@@ -48,21 +48,21 @@ const MyText = () => {
   }
 
   return (
-    <div className="w-full h-[80vh] justify-center items-center flex relative">
-      <div className="flex gap-4 sm:flex hidden text-[3em] mx-5 px-5 relativ">
+    <div className="w-full h-[100vh] justify-center items-center flex relative bottom-[5em]">
+      <div className=" gap-4 sm:flex hidden xl:text-[4.5em] lg:text-[3.5em] md:text-[2.7em] text-[2.2em] items-center mx-5 px-5 relativ">
         <div id="binging" className="flex">
           {bringing.map((x, index) => {
             return (
-              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}   className="text-white font-bold flex cursor-pointer py-3 " key={index}>
+              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}   className="text-white font-bold flex cursor-pointer py-40 " key={index}>
                 {x}
               </motion.span>
             );
           })}
         </div>
-        <div id="creativity" className="flex bg-green-400  rounded-2xl px-2 items-center">
+        <div id="creativity" className="flex text-[1.2em]  px-2 items-center">
           {creativity.map((x, index) => {
             return (
-              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover2}  className="text-white font-bold flex cursor-pointer " key={index}>
+              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}  className="text-white font-bold flex cursor-pointer py-40 " key={index}>
                 {x}
               </motion.span>
             );
@@ -75,7 +75,7 @@ const MyText = () => {
             } else {
               return (
                 <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover} 
-                  className="text-white font-bold  cursor-pointer"
+                  className="text-white font-bold py-40 cursor-pointer"
                   key={index}
                 >{x}</motion.span>
               );
@@ -84,9 +84,9 @@ const MyText = () => {
         </div>
       </div>
 
-      <div className="flex sm:hidden flex flex-col justify-center items-center text-white font-bold text-[3em] ">
+      <div className="flex sm:hidden flex-col justify-center items-center text-white font-bold text-[3em] ">
         <h2>bringing</h2>
-        <h1 className="bg-green-400 bg-opacity-60 px-3 my-1">CREATIVITY</h1>
+        <h1 className="glass rounded-xl px-3 my-1">CREATIVITY</h1>
         <h2>into the web</h2>
         <p className=" font-normal text-[0.3em] opacity-40">use Desktop for better experiens</p>
       </div>
