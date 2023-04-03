@@ -28,7 +28,7 @@ const MyItem = (props:any) => {
       
       
     </div>
-    <div className={` z-10 fixed justify-center items-center flex right-0 top-0 bottom-0 left-0 bg-[#07062957] ${onDesc ? '':'hidden'}  `}>
+    <div className={` z-10 fixed justify-center items-center flex right-0 top-0 bottom-0 left-0 bg-[#00000057] ${onDesc ? '':'hidden'}  `}>
       <div
        className="glass flex rounded-2xl sm:mx-10 flex-col"
        
@@ -42,7 +42,8 @@ const MyItem = (props:any) => {
           
         </div>
         <div>
-          <p className="text-white w-[300px] sm:w-[40em] px-5 py-5">
+          <p className="text-white pb-2 pt-5 italic px-5 ">Quick idea ~ </p>
+          <p className="text-white w-[300px] sm:w-[40em] px-5 pb-5">
             {props.item.desc}
           </p>
         </div>

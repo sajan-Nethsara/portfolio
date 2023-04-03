@@ -25,24 +25,17 @@ const MyText = () => {
       opacity: 0,
     },
     visible: {
-      opacity: 1,
+      opacity: 0.6,
     },
     hover:{
       scale:1.5,
+      opacity:1,
       rotate:'-10deg',
-      color:'#4ade80',
+      color:'#facc15',
       transition:{
         duration:0.1
       }
     },
-    hover2:{
-      scale:1.5,
-      rotate:'-10deg',
-      color:'black',
-      transition:{
-        duration:0.1
-      }
-    }
 
     
   }
@@ -53,7 +46,7 @@ const MyText = () => {
         <div id="binging" className="flex">
           {bringing.map((x, index) => {
             return (
-              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}   className="text-white font-bold flex cursor-pointer py-40 " key={index}>
+              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}   className="text-white font-bold flex cursor-pointer py-80 " key={index}>
                 {x}
               </motion.span>
             );
@@ -62,7 +55,7 @@ const MyText = () => {
         <div id="creativity" className="flex text-[1.2em]  px-2 items-center">
           {creativity.map((x, index) => {
             return (
-              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}  className="text-white font-bold flex cursor-pointer py-40 " key={index}>
+              <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover}  className="text-white font-bold flex cursor-pointer py-80 " key={index}>
                 {x}
               </motion.span>
             );
@@ -75,7 +68,7 @@ const MyText = () => {
             } else {
               return (
                 <motion.span variants={varients} initial={varients.hidden} animate={varients.visible} whileHover={varients.hover} 
-                  className="text-white font-bold py-40 cursor-pointer"
+                  className="text-white font-bold py-80 cursor-pointer"
                   key={index}
                 >{x}</motion.span>
               );

@@ -11,9 +11,9 @@ const Hero = () => {
        <Image src={heroImg} className="sm:h-[150px] h-[80px] sm:w-[150px] w-[80px] rounded-full proPic mx-4" alt="hero" /> 
        <div className="flex flex-col">
        <p className=" w-[300px] sm:w-[500px] h-30 text-[1em] sm:text-[1.3em]"> <span className="text-[1.1em]">"</span> Hi, Iam 'Sajan Nethsara' and Iam a web developer who is dedicated to continuouosly learning new things to become more professional..<span className="text-[1.1em]">"</span></p>    
-       <Link href='/contact' className="flex font-mono self-end">
+       {/* <Link href='/contact' className="flex font-mono self-end">
           <p className="flex hover:font-bold p-1">Contact..</p>
-        </Link>
+        </Link> */}
        </div>
      </div>
     </div>

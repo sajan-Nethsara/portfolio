@@ -2,6 +2,11 @@ import htmlImg from './html.svg'
 import cssImg from './css.svg'
 import javaImg from './javascript.svg'
 import typeImg from './typescript.svg'
+import reactImg from './react.svg'
+import nextImg from './next.svg'
+import tailwindImg from './tailwind.svg'
+import framerImg from './framer.svg'
+import threeImg from './three.svg'
 
 
 
@@ -25,6 +30,31 @@ export const frontend = {
     name:'TypeScript',
     desc:'TypeScript is a superset of JavaScript that adds optional static typing and other features to the language. As a developer, TypeScript is valuable because it helps catch errors and improve code quality by providing a more strict type system. TypeScript also adds features like interfaces, classes, and namespaces, making it easier to manage and scale larger codebases.',
     img:typeImg
-  }  
+  },
+  react:{
+    name:'React',
+    desc:'React is a JavaScript library for building user interfaces. As a developer, React is valuable because it is the foundation of every web page. React provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:reactImg
+  },
+  next:{
+    name:'Next.js',
+    desc:'Next.js is a JavaScript framework for building user interfaces. As a developer, Next.js is valuable because it is the foundation of every web page. Next.js provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:nextImg
+  },
+  tailwind:{
+    name:'Tailwind',
+    desc:'Tailwind is a CSS framework for building user interfaces. As a developer, Tailwind is valuable because it is the foundation of every web page. Tailwind provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:tailwindImg
+  },
+  framer:{
+    name:'Framer Motion',
+    desc:'Framer Motion is a CSS framework for building user interfaces. As a developer, Framer Motion is valuable because it is the foundation of every web page. Framer Motion provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:framerImg
+  },
+  three:{
+    name:'Three.js',
+    desc:'Three.js is a JavaScript framework for building user interfaces. As a developer, Three.js is valuable because it is the foundation of every web page. Three.js provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:threeImg
+  }
 
 }
