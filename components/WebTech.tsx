@@ -5,12 +5,12 @@ const WebTech = () => {
   return (
     <div className='flex w-full flex-col items-center my-10'>
       <div className='flex '>
-        <h1 className='flex  text-white font-bold my-10'>Let's drive in</h1>
+        <h1 className='flex text-justify-center  text-white font-bold text-[2em] mt-10'>Quick summary of what am I skilled/continuasly learning stuff</h1>
       </div>
 
 
       <div className='flex w-full flex-col items-center my-10'>
-        <h1 className='text-white'> I think I have solid knowladge in fundementals</h1>
+        <h1 className='text-white text-[1em]'>I think I have solide knowladge on basics on Web</h1>
         <div className='pt-5 gap-6 flex flex-wrap px-5 justify-center'>
          <MyItem item={w.html}/>
          <MyItem item={w.css}/>
@@ -20,7 +20,7 @@ const WebTech = () => {
 
       </div>
       <div className='flex w-full flex-col items-center my-10'>
-        <h1 className='text-white'> I think I have solid knowladge in fundementals</h1>
+        <h1 className='text-white'>I learnd more advanced modern frontend tech</h1>
         <div className='pt-5 gap-6 flex flex-wrap px-5 justify-center'>
          <MyItem item={w.react}/>
          <MyItem item={w.next}/>

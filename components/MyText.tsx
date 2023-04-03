@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 
+
 const MyText = () => {
   const bringing = ["b", "r", "i", "n", "g", "i", "n", "g"];
   const creativity = ["C", "R", "E", "A", "T", "I", "V", "I", "T", "Y"];
@@ -28,7 +29,7 @@ const MyText = () => {
       opacity: 0.6,
     },
     hover:{
-      scale:1.5,
+      scale:1.8,
       opacity:1,
       rotate:'-10deg',
       color:'#facc15',
@@ -40,8 +41,11 @@ const MyText = () => {
     
   }
 
+
+
   return (
     <div className="w-full h-[100vh] justify-center items-center flex relative bottom-[5em]">
+      
       <div className=" gap-4 sm:flex hidden xl:text-[4.5em] lg:text-[3.5em] md:text-[2.7em] text-[2.2em] items-center mx-5 px-5 relativ">
         <div id="binging" className="flex">
           {bringing.map((x, index) => {
