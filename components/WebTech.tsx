@@ -10,7 +10,7 @@ const WebTech = () => {
 
 
       <div className='flex w-full flex-col items-center my-10'>
-        <h1 className='text-white text-[1em]'>I think I have solide knowladge on basics on Web</h1>
+        <h1 className='text-white text-[1em]'>I think I have solid knowladge on basics on Web</h1>
         <div className='pt-5 gap-6 flex flex-wrap px-5 justify-center'>
          <MyItem item={w.html}/>
          <MyItem item={w.css}/>
