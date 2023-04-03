@@ -46,7 +46,7 @@ const MyText = () => {
   return (
     <div className="w-full h-[100vh] justify-center items-center flex relative bottom-[5em]">
       
-      <div className=" gap-4 sm:flex hidden xl:text-[4.5em] lg:text-[3.5em] md:text-[2.7em] text-[2.2em] items-center mx-5 px-5 relativ">
+      <div className="  gap-4 sm:flex hidden xl:text-[4.5em] lg:text-[3.5em] md:text-[2.7em] text-[2.2em] items-center mx-5 px-5 relativ">
         <div id="binging" className="flex">
           {bringing.map((x, index) => {
             return (

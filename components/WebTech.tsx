@@ -1,4 +1,5 @@
 import {frontend as w} from '../public/webtech'
+import {backend as b} from '../public/webtech'
 import MyItem from './MyItem'
 const WebTech = () => {
   const basic = ['html','css','js','ts']
@@ -11,7 +12,7 @@ const WebTech = () => {
 
       <div className='flex w-full flex-col items-center my-10'>
         <h1 className='text-white text-[1em]'>I think I have solid knowladge on basics on Web</h1>
-        <div className='pt-5 gap-6 flex flex-wrap px-5 justify-center'>
+        <div className='pt-5 gap-6 flex flex-wrap px-5  justify-center'>
          <MyItem item={w.html}/>
          <MyItem item={w.css}/>
          <MyItem item={w.javaScript}/>
@@ -20,7 +21,7 @@ const WebTech = () => {
 
       </div>
       <div className='flex w-full flex-col items-center my-10'>
-        <h1 className='text-white'>I learnd more advanced modern frontend tech</h1>
+        <h1 className='text-white'>the modern <span className='font-bold'>frontend technologies</span> that I am familier with</h1>
         <div className='pt-5 gap-6 flex flex-wrap px-5 justify-center'>
          <MyItem item={w.react}/>
          <MyItem item={w.next}/>
@@ -32,7 +33,17 @@ const WebTech = () => {
       </div>
 
 
-      <div>
+      <div className='flex w-full flex-col items-center my-10'>
+        <h1 className='text-white'>the modern <span className='font-bold'>backend technologies</span> that I am familier with</h1>
+        <div className='pt-5 gap-6 flex flex-wrap px-5 justify-center'>
+         <MyItem item={b.node}/>
+         <MyItem item={b.express}/>
+         <MyItem item={b.mongodb} />
+         <MyItem item={b.googleAuth}/>
+         <MyItem item={b.stripe}/>
+         <MyItem item={b.strapi}/>
+
+        </div> 
 
       </div>
 

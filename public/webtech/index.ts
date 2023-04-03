@@ -2,11 +2,19 @@ import htmlImg from './html.svg'
 import cssImg from './css.svg'
 import javaImg from './javascript.svg'
 import typeImg from './typescript.svg'
+
 import reactImg from './react.svg'
 import nextImg from './next.svg'
 import tailwindImg from './tailwind.svg'
 import framerImg from './framer.svg'
 import threeImg from './three.svg'
+
+import nodeImg from './node.svg'
+import expressImg from './express.svg'
+import mongodbImg from './mongodb.svg'
+import strapiImg from './strapi.svg'
+import stripeImg from './stripe.svg'
+import googleImg from './googleAuth.svg'
 
 
 
@@ -58,3 +66,35 @@ export const frontend = {
   }
 
 }
+ export const backend = {
+  node:{
+    name:'Node.js',
+    desc:'Node.js is a JavaScript framework for building user interfaces. As a developer, Node.js is valuable because it is the foundation of every web page. Node.js provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:nodeImg
+  },
+  express:{
+    name:'Express.js',
+    desc:'Express.js is a JavaScript framework for building user interfaces. As a developer, Express.js is valuable because it is the foundation of every web page. Express.js provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:expressImg
+  },
+  mongodb:{
+    name:'MongoDB',
+    desc:'MongoDB is a JavaScript framework for building user interfaces. As a developer, MongoDB is valuable because it is the foundation of every web page. MongoDB provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:mongodbImg
+  },
+  strapi:{
+    name:'Strapi',
+    desc:'Strapi is a JavaScript framework for building user interfaces. As a developer, Strapi is valuable because it is the foundation of every web page. Strapi provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:strapiImg
+  },
+  stripe:{
+    name:'Stripe',
+    desc:'Stripe is a JavaScript framework for building user interfaces. As a developer, Stripe is valuable because it is the foundation of every web page. Stripe provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:stripeImg
+  },
+  googleAuth:{
+    name:'Google Auth',
+    desc:'Google Auth is a JavaScript framework for building user interfaces. As a developer, Google Auth is valuable because it is the foundation of every web page. Google Auth provides the structure and content of the page, allowing other languages like CSS and JavaScript to add style and interactivity.',
+    img:googleImg
+  }
+ }
