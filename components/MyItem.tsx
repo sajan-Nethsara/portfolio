@@ -3,7 +3,6 @@
 import Image from "next/image"
 import { useState , useEffect } from "react"
 import { AiOutlineCloseCircle } from "react-icons/ai"
-import {motion} from 'framer-motion'
 
 const MyItem = (props:any) => {
   const [onDesc , setOnDesc] = useState(false);
@@ -17,13 +16,13 @@ const MyItem = (props:any) => {
   return (
     
     <div>
-      <div className="flex glass rounded-2xl p-3  items-center cursor-pointer"
+      <div className="flex glass rounded-2xl sm:p-3 p-2 items-center cursor-pointer"
     onClick={() => setOnDesc(!onDesc)}  
     
     >
       <Image src={props.item.img} alt={`Image of ${props.item.name}`} className="h-[50px] w-[50px] rounded-xl"/>
       <div className="flex flex-col">
-        <h1 className={`text-white font-bold px-5 `}>{props.item.name}</h1>   
+        <h1 className={`text-white font-bold sm:text-[1em] text-[0.8em] px-3 sm:px-5 `}>{props.item.name}</h1>   
       </div>
       
       
