@@ -7,7 +7,7 @@ export const projects = [
   {
     name: 'My First Project',
     img:first,
-    description: 'This is my first project',
+    description: 'lorem ',
     github: 'https://github.com/Jonathan-Martinez',
   },
   {
